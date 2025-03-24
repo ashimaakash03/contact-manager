@@ -7,7 +7,6 @@ import apps_icon from '../assets/icons/apps_icon.png'
 
 const Navbar = () => {
     return (
-        <>
         <div className='m-4 p-2 flex flex-row'>
             <div className='flex flex-row'>
                 <div className='flex mx-10'><img src={logo} alt="logo" /><h1 className='text-3xl text-gray-500 font-bold'>Contacts</h1></div>
@@ -23,8 +22,6 @@ const Navbar = () => {
             <h1 className='text-3xl text-white 4xl bg-blue-900 p-3 rounded-xl border-rounded'>A</h1>
             </div>
         </div>
-        <h2>ABCD</h2>
-        </>
     )
 }
 
