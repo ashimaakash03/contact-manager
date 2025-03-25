@@ -1,5 +1,8 @@
 import React, { useEffect } from 'react';
 import { contacts } from '../assets/data/contacts_data';
+import heart_outline from '../assets/icons/heart_outline.png';
+import edit_icon from '../assets/icons/edit_icon.png';
+import delete_icon from '../assets/icons/delete_icon.png';
 
 const ContactCard = () => {
 
@@ -26,6 +29,11 @@ const ContactCard = () => {
               <h2 className='mx-3'><strong>{person.code}</strong> {person.phone}</h2>
               <h2 className='mx-3'>{person.email}</h2>
               <div className='border-1 p-2 w-[60px] mx-3 rounded-2xl bg-black text-white'>{person.category}</div>
+            </div>
+            <div className="flex flex-col justify-between mr-1">
+              <button><img src={heart_outline} alt="like"/></button>
+              <button><img src={edit_icon} alt="edit" /></button>
+              <button><img src={delete_icon} alt="delete" /></button>
             </div>
           </div>
         ))}
