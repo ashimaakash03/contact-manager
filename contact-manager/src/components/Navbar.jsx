@@ -19,7 +19,7 @@ const Navbar = () => {
                 <button><img src={help_icon} alt="help_icon" height={20} width={40} /></button>
                 <button><img src={settings_icon} alt="settings_icon" height={20} width={40} /></button>
                 <button><img src={apps_icon} alt="apps_icon" height={20} width={40} /></button>
-                <h1 className='text-3xl text-white 4xl bg-blue-900 p-3 rounded-xl border-rounded'>A</h1>
+                <h1 className='text-3xl text-white 4xl bg-blue-700 p-3 rounded-xl border-rounded'>A</h1>
             </div>
         </div>
     )
